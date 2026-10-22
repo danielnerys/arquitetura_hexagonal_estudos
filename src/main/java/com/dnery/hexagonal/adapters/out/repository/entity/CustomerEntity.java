@@ -5,8 +5,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collation = "custumers")
-public class CustumerEntity {
+@Document(collation = "custumors")
+public class CustomerEntity {
 
     @Id
     private String id;

@@ -1,7 +1,7 @@
 package com.dnery.hexagonal.adapters.out.repository;
 
-import com.dnery.hexagonal.adapters.out.repository.entity.CustumerEntity;
+import com.dnery.hexagonal.adapters.out.repository.entity.CustomerEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface CustumerRespository extends MongoRepository<CustumerEntity, String> {
+public interface CustumerRespository extends MongoRepository<CustomerEntity, String> {
 }
