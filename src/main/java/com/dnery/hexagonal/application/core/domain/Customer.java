@@ -1,12 +1,12 @@
 package com.dnery.hexagonal.application.core.domain;
 
-public class Custumer {
+public class Customer {
 
-    public Custumer() {
+    public Customer() {
         this.isValidCpf = false;
     }
 
-    public Custumer(Boolean isValidCpf, String cpf, Address address, String name, String id) {
+    public Customer(Boolean isValidCpf, String cpf, Address address, String name, String id) {
         this.isValidCpf = isValidCpf;
         this.cpf = cpf;
         this.address = address;
@@ -23,14 +23,13 @@ public class Custumer {
 
     private Boolean isValidCpf;
 
-    public Boolean getValidCpf() {
+    public Boolean getIsValidCpf() {
         return isValidCpf;
     }
 
 
-
-    public void setValidCpf(Boolean validCpf) {
-        isValidCpf = validCpf;
+    public void setIsValidCpf(Boolean isValidCpf) {
+        this.isValidCpf = isValidCpf;
     }
 
     public String getCpf() {
@@ -64,4 +63,7 @@ public class Custumer {
     public void setId(String id) {
         this.id = id;
     }
+
+
 }
+
