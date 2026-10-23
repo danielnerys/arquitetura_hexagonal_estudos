@@ -23,13 +23,12 @@ public class Customer {
 
     private Boolean isValidCpf;
 
-    public Boolean getValidCpf() {
+    public Boolean getIsValidCpf() {
         return isValidCpf;
     }
 
 
-
-    public void setValidCpf(Boolean isValidCpf) {
+    public void setIsValidCpf(Boolean isValidCpf) {
         this.isValidCpf = isValidCpf;
     }
 
@@ -64,4 +63,7 @@ public class Customer {
     public void setId(String id) {
         this.id = id;
     }
+
+
 }
+

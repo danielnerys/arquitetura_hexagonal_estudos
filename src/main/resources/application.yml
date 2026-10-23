@@ -1,8 +1,20 @@
+server:
+  port: 8081
+
+
 nery:
   client:
     address:
-        url: http://localhost:8082/addresses
+      url: http://localhost:8082/addresses
 
 spring:
   mongodb:
-    uri: mongodb://localhost:27017/hexagonal
+    host: localhost
+    port: 27017
+    authentication-database: admin
+    username: root
+    password: example
+    database: hexagonal
+  jackson:
+    mapper:
+      sort-properties-alphabetically: false

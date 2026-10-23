@@ -11,9 +11,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 )
 public interface FindAddressByZipCodeClient {
 
-    AddressResponse findAddressByZipCode(String zipCode);
+
+//    AddressResponse findAddressByZipCode(String zipCode);
 
 
     @GetMapping("/{zipCode}")
-    AddressResponse findAddressByZipCode2(@PathVariable("zipCode") String zipCode);
+    AddressResponse findAddressByZipCode(@PathVariable("zipCode") String zipCode);
 }
