@@ -21,7 +21,7 @@ public class Customer {
 
     private String cpf;
 
-    private Boolean isValidCpf;
+    private Boolean                                                                                                                 isValidCpf;
 
     public Boolean getIsValidCpf() {
         return isValidCpf;

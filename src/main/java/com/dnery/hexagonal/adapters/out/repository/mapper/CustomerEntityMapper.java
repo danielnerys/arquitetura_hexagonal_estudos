@@ -3,6 +3,7 @@ package com.dnery.hexagonal.adapters.out.repository.mapper;
 import com.dnery.hexagonal.adapters.out.repository.entity.CustomerEntity;
 import com.dnery.hexagonal.application.core.domain.Customer;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 
 @Mapper(componentModel = "spring")
 public interface CustomerEntityMapper {
