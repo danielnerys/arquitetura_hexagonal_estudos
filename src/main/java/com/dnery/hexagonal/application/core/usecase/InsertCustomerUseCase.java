@@ -1,6 +1,5 @@
 package com.dnery.hexagonal.application.core.usecase;
 
-import com.dnery.hexagonal.adapters.out.SendCpfValidationAdapter;
 import com.dnery.hexagonal.application.core.domain.Customer;
 import com.dnery.hexagonal.application.ports.in.InsertCustomerInputPort;
 import com.dnery.hexagonal.application.ports.out.FindAddressByZipCodeOutputPort;

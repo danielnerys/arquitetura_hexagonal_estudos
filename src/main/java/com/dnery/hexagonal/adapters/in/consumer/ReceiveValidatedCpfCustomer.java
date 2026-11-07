@@ -4,8 +4,6 @@ import com.dnery.hexagonal.adapters.in.consumer.mapper.CustomerMessageMapper;
 import com.dnery.hexagonal.adapters.in.consumer.message.CustomerMessage;
 import com.dnery.hexagonal.application.core.domain.Customer;
 import com.dnery.hexagonal.application.ports.in.UpdateCustomerInputPort;
-import com.dnery.hexagonal.application.ports.out.SendCpfForValidationOutputPort;
-import com.dnery.hexagonal.application.ports.out.UpdateCustomerOutputPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
